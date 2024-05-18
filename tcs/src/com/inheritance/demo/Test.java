@@ -1,9 +1,6 @@
 package com.inheritance.demo;
 
 import java.util.Scanner;
-import java.util.concurrent.FutureTask;
-
-
 
 public class Test {
 	public static void main(String[] args) {

@@ -10,9 +10,10 @@ public class EmployeeFullTimeService {
 	private String dept;
 	private float salary;
 	EmployeeFullTime e1=new EmployeeFullTime();
+	Scanner s1=new Scanner(System.in);
 	public void setFullTimeEmployee()
 	{
-		Scanner s1=new Scanner(System.in);
+	
 		System.out.println("Enter  Employee ID");
 		id=s1.nextInt();
 		System.out.println("Enter  Employee Name");

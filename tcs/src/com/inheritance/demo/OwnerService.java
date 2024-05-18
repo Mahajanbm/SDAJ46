@@ -2,7 +2,7 @@ package com.inheritance.demo;
 
 import java.util.Scanner;
 
-public class OwnerService {	
+public class OwnerService  {	
 	private int id;
 	private String name;
 	private String city;

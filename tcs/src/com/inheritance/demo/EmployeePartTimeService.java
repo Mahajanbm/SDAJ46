@@ -9,9 +9,10 @@ public class EmployeePartTimeService {
 	private String dept;
 	private float salary;
 	EmployeePartTime e1=new EmployeePartTime();
+	Scanner s1=new Scanner(System.in);
 	public void setPartTimeEmployee()
 	{
-		Scanner s1=new Scanner(System.in);
+		
 		System.out.println("Enter  Employee ID");
 		id=s1.nextInt();
 		System.out.println("Enter  Employee Name");
